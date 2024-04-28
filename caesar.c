@@ -2,7 +2,7 @@
 #include <ctype.h>
 #include <stdlib.h>
 #include <string.h>
-int main(int argc, char argv[])
+int main(int argc, char *argv[])
 {
       // Make sure program was run with just one command-line argument
       if(argc != 2)
@@ -33,11 +33,11 @@ int main(int argc, char argv[])
 	for(j= 0; j < strlen(plaintext); j++)
 	{
 		// Rotate the character if it's a letter
-		if(isupper(plaintext))
+		if(isupper(plaintext[i]))
 		{
 			printf("%c", ((plaintext[j] - 65) + k) % 26 + 65);
 		}
-		else if(islower(plaintext))
+		else if(islower(plaintext[i]))
 		{
 			printf("%c", ((plaintext[j] - 97) + k) % 26 + 97);
 		}
