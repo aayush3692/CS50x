@@ -4,13 +4,13 @@ text = get_string("Text: ")
 
 letters = 0
 words = 1
-sentence = 1
+sentence = 0
 
 for i in text:
     if i.isalpha():
         letters += 1
     elif i == " ":
-        words += 2
+        words += 1
     elif i == "." or i == "?" or i == "!":
         sentence += 1
 
