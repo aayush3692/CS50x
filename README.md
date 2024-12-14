@@ -7,7 +7,7 @@ Welcome to my solutions for the problem sets from Harvard's CS50: Introduction t
 CS50 is an entry-level course taught by David J. Malan. It covers a broad range of computer science topics including algorithms, data structures, memory management, web development, and more.
 The course is well-known for its rigorous and comprehensive problem sets that challenge students to apply the concepts they have learned.
 
- ##Contributing
+## Contributing
 If you have any suggestions or improvements, feel free to fork the repository and submit a pull request.
 
 ## License
